@@ -11,8 +11,7 @@ function makeDiamond(num) {
 				continue;
 			}
 			str += " ";		
-		}
-		
+		} 
 		console.log(str);
 		
 		if(line < num - 1) {
@@ -20,7 +19,6 @@ function makeDiamond(num) {
 		} else {
 			sIdx--;
 		}
-
 		line++;
 	}
 }
